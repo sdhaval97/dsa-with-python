@@ -23,7 +23,7 @@ print(my_array)
 
 # Extend array using extend method
 print("Step 5")
-my_array1 = array('i', [10, 11, 12])
+my_array1 = array('i', [1, 10, 11, 12])
 my_array.extend(my_array1)
 print(my_array)
 
@@ -37,4 +37,20 @@ print("Step 8")
 my_array.pop()
 print(my_array)
 
-# 
+# fetching element using index()
+print("Step 9")
+print(my_array.index(5))
+
+# reversing python array using the reverse() method
+print("step 10")
+my_array.reverse()
+print(my_array)
+
+# get array buffer info using buffer_info method
+print("Step 11")
+print(my_array.buffer_info())
+
+# check for number of occurences using count()
+print("Step 12")
+print(my_array.count(1))
+

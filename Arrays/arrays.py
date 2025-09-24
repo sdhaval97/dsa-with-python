@@ -29,3 +29,6 @@ def linear_search(arr, target):
     return -1
 
 print(linear_search(my_array1, 8))
+
+my_array1.remove(1)
+print(my_array1)

@@ -13,3 +13,7 @@ class Node:
     def get_link_node(self):
         return self.link_node
     
+    # We are allowing to update the link node (create a setter)
+    def set_link_node(self, link_node):
+        self.link_node = link_node
+        
